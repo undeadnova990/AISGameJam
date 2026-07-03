@@ -1,0 +1,245 @@
+Unity Editor version:    6000.3.19f1 (7689f4515d75)
+Branch:                  6000.3/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 15.6.1 (Build 24G90)
+Darwin version:          24.6.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        49152 MB
+Date:                    2026-07-03T22:02:37Z
+[Licensing::Module] Trying to connect to existing licensing client channel...
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ryanlee" at "2026-07-03T22:02:37.432966Z"
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/6000.3.19f1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker8
+-projectPath
+/Users/ryanlee/Desktop/Unity Project/GameJam MYME GLOBAL GAMEJAM/AISGameJam/AISGameJam
+-logFile
+Logs/AssetImportWorker8.log
+-srvPort
+51651
+-parentPid
+5117
+-analyticsCloudUserId
+2475833918759
+-analyticsCloudProjectId
+f3289b0f-d24b-4eb1-8ae5-5c75a8ac97d6
+-analyticsLocalProjectId
+bb925e61251260f40a0424f9b10205d8
+-licensingIpc
+LicenseClient-ryanlee
+-job-worker-count
+6
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name AssetImport
+Successfully changed project path to: /Users/ryanlee/Desktop/Unity Project/GameJam MYME GLOBAL GAMEJAM/AISGameJam/AISGameJam
+/Users/ryanlee/Desktop/Unity Project/GameJam MYME GLOBAL GAMEJAM/AISGameJam/AISGameJam
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8350474432]  Target information:
+
+Player connection [8350474432]  * "[IP] 192.168.1.181 [Port] 0 [Flags] 2 [Guid] 4244303960 [EditorId] 4244303960 [Version] 1048832 [Id] OSXEditor(0,Mac) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" 
+
+Player connection [8350474432] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [8350474432] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 6
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 0.04 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.3.19f1 (7689f4515d75)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/6000.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/ryanlee/Desktop/Unity Project/GameJam MYME GLOBAL GAMEJAM/AISGameJam/AISGameJam/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+ preferred device: Apple M4 Pro (high power)
+Metal devices available: 1
+0: Apple M4 Pro (high power)
+Using device Apple M4 Pro (high power)
+Initializing Metal device caps: Apple M4 Pro
+Mac GPU Family: 2
+Apple GPU Family: 9
+MSL Version: 3.0
+Has Float MSAA: 1
+Has Float Filtering: 1
+ReadWrite Texture Tier: 2
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/6000.3.19f1/Unity.app/Contents/Resources/Scripting/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/6000.3.19f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/6000.3.19f1/Unity.app/Contents/Resources/Scripting/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56443
+[Licensing::Client] Handshaking with LicensingClient:
+  Version:                 1.18.1+9fbee8e
+  Session Id:              f707e7abab0f4de8921e627c11cbf7df
+  Correlation Id:          b1a5abe9415dd91fc2b5f084c0b4ffff
+  External correlation Id: 3130492494963950444
+  Machine Id:              kX17aWJ5e8tj8Arx8lKDc4SVvWY=
+[Licensing::Module] Successfully connected to LicensingClient on channel: "LicenseClient-ryanlee" (connect: 0.00s, validation: 0.00s, handshake: 0.32s)
+[Licensing::IpcConnector] Successfully connected to: "LicenseClient-ryanlee-notifications" at "2026-07-03T22:02:37.751755Z"
+[Licensing::Module] Licensing Background thread has ended after 0.32s
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.19f1/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/6000.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Registered in 0.000252 seconds.
+- Loaded All Assemblies, in  0.198 seconds
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+ScheduleIndexationOnStartup MainProcess:False IndexOnStartup:True
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.201 seconds
+Domain Reload Profiling: 398ms
+	BeginReloadAssembly (46ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (0ms)
+	RebuildCommonClasses (22ms)
+	RebuildNativeTypeToScriptingClass (7ms)
+	initialDomainReloadingComplete (21ms)
+	LoadAllAssembliesAndSetupDomain (101ms)
+		LoadAssemblies (46ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (99ms)
+			TypeCache.Refresh (98ms)
+				TypeCache.ScanAssembly (89ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (201ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (174ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (26ms)
+			SetLoadedEditorAssemblies (2ms)
+			BeforeProcessingInitializeOnLoad (44ms)
+			ProcessInitializeOnLoadAttributes (66ms)
+			ProcessInitializeOnLoadMethodAttributes (36ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Assertion failed on expression: 'IsFileCreated(assemblyPath)'
+Compilation Pipeline: Could not read file Packages/com.unity.test-framework/Tests/TestNewCustomAssembly/TestNewCustomAssembly.asmdef
+Fatal Error! Compilation Pipeline: Could not read file Packages/com.unity.test-framework/Tests/TestNewCustomAssembly/TestNewCustomAssembly.asmdef
+Obtained 35 stack frames.
+#0  0x00000183bd6388 in __pthread_kill
+#1  0x00000183b18a3c in abort
+#2  0x0000010350f8f8 in __cxx_global_var_init.3
+#3  0x00000101f8dc10 in EditorMonoConsole::LogToConsoleImplementation(CppLogEntry&)
+#4  0x00000101f8d754 in EditorMonoConsole::LogToConsoleImplementation(DebugStringToFileData const&)
+#5  0x00000101f8f384 in LogToConsoleImplementation(DebugStringToFileData const&)
+#6  0x00000102d844e8 in DebugStringToFilePostprocessedStacktrace(DebugStringToFileData const&)
+#7  0x00000102d84d20 in DebugStringToFile(DebugStringToFileData const&)
+#8  0x0000010262338c in RegisterAssemblyDefinition(core::basic_string<char, core::StringStorageDefault<char>> const&)
+#9  0x000001029d03f8 in UpdateScriptCompilationPipelineCaches(ScriptChanges const&, bool)
+#10 0x00000102852760 in InitializeScriptPipelineCaches()
+#11 0x000001020c24ac in Application::InitializeProject()
+#12 0x00000103516e3c in -[EditorApplication applicationDidFinishLaunching:]
+#13 0x00000183cef46c in __CFNOTIFICATIONCENTER_IS_CALLING_OUT_TO_AN_OBSERVER__
+#14 0x00000183d7eb28 in ___CFXRegistrationPost_block_invoke
+#15 0x00000183d7ea6c in _CFXRegistrationPost
+#16 0x00000183cbe8b8 in _CFXNotificationPost
+#17 0x00000185278680 in -[NSNotificationCenter postNotificationName:object:userInfo:]
+#18 0x00000187c261bc in -[NSApplication _postDidFinishNotification]
+#19 0x00000187c25f6c in -[NSApplication _sendFinishLaunchingNotification]
+#20 0x00000187c24568 in -[NSApplication(NSAppleEventHandling) _handleAEOpenEvent:]
+#21 0x00000187c2417c in -[NSApplication(NSAppleEventHandling) _handleCoreEvent:withReplyEvent:]
+#22 0x000001852a0e40 in -[NSAppleEventManager dispatchRawAppleEvent:withRawReply:handlerRefCon:]
+#23 0x000001852a0c38 in _NSAppleEventManagerGenericHandler
+#24 0x0000018b6f313c in _AppleEventsCheckInAppWithBlock
+#25 0x0000018b6f2a7c in _AppleEventsCheckInAppWithBlock
+#26 0x0000018b6ec044 in aeProcessAppleEvent
+#27 0x0000018f6ee828 in AEProcessAppleEvent
+#28 0x00000187c1dd38 in _DPSNextEvent
+#29 0x000001885bc940 in -[NSApplication(NSEventRouting) _nextEventMatchingEventMask:untilDate:inMode:dequeue:]
+#30 0x00000187c10be4 in -[NSApplication run]
+#31 0x00000187be72dc in NSApplicationMain
+#32 0x00000103528134 in EditorMain(int, char const**)
+#33 0x00000103528410 in main
+#34 0x0000018386eb98 in start
