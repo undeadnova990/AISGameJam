@@ -7,4 +7,6 @@ public class DropAreaPanelLocation : MonoBehaviour
     public bool floorDropArea = false;
 
     public bool wallDropArea = false;
+
+    public float objectOffset = 0f;
 }

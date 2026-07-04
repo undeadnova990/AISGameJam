@@ -5,59 +5,6 @@ using UnityEngine.InputSystem;
 
 public class SnappingObject : MonoBehaviour
 {
-    /*
-    // Vector3 offset;
-    // public string DropAreaObjectTag = "DroppingArea";
-    // void OnMouseDrag()
-    // {
-    //     // If the Mouse hits the Draggable Object and the left mouse click is held down, then move the object.
-
-    //     transform.position = MousePosition() + offset;
-
-    // }
-
-    // void OnMouseUp()
-    // {
-    //     // if the left mouse click is released, snap the object onto an object that is a can allow the object to snap
-
-    //     //Need to get the mouse position from the screen to hit an object.
-    //     var OnMouseClickOnCamera= Camera.main.transform.position;
-    //     var OnMousePositionEnvironment = MousePosition() - OnMouseClickOnCamera;
-
-    //     RaycastHit MouseLocationHit;
-    //     if(Physics.Raycast(OnMouseClickOnCamera, OnMousePositionEnvironment, out MouseLocationHit))
-    //     {
-    //         if(MouseLocationHit.transform.tag == DropAreaObjectTag)
-    //         {
-    //             transform.position = MouseLocationHit.transform.position;
-    //         }
-
-    //         transform.GetComponent<Collider>().enabled = true;
-    //     }
-
-
-    // }
-
-    // void OnMouseDown()
-    // {
-    //     // if the left mouse click is held down, have the object follow along the mouse's position
-
-    //     //Need to get the mouse position from the screen to hit an object.
-    //     offset = transform.position - MousePosition();
-    //     transform.GetComponent<Collider>().enabled = false;
-
-    //     Debug.Log(MousePosition());
-
-    // }
-
-
-    // Vector3 MousePosition()
-    // {
-    //     var mousePositonOnScreen = Input.mousePosition;
-    //     mousePositonOnScreen.z = Camera.main.WorldToScreenPoint(transform.position).z;
-    //     return Camera.main.ScreenToWorldPoint(mousePositonOnScreen);
-    } */
-    
     /* 
     CREDITS: 
     Drag and Drop Function - AIA's "Unity Drag and Drop Script | (Unity 3D tutorial)"; https://www.youtube.com/watch?v=uNCCS6DjebA
@@ -154,14 +101,15 @@ public class SnappingObject : MonoBehaviour
                     Vector3 selectedObjectOnArea;
 
                     bool floorPanel = layerHit.collider.gameObject.GetComponent<DropAreaPanelLocation>().floorDropArea;
-
                     bool wallPanel = layerHit.collider.gameObject.GetComponent<DropAreaPanelLocation>().wallDropArea;
+
+                    float objectOffsetAmount = layerHit.collider.gameObject.GetComponent<DropAreaPanelLocation>().objectOffset;
                     // If the DropArea is a FloorArea Add to y coord
                     if(floorPanel)
                     {
                         selectedObjectOnArea = new Vector3(
                         layerHit.transform.position.x,
-                        layerHit.transform.position.y + (selectedObject.transform.localScale.y / 2),
+                        layerHit.transform.position.y + (selectedObject.transform.localScale.y / 2) + objectOffsetAmount,
                         layerHit.transform.position.z);
                     }
 
@@ -169,7 +117,7 @@ public class SnappingObject : MonoBehaviour
                     else if(wallPanel)
                     {
                         selectedObjectOnArea = new Vector3(
-                        layerHit.transform.position.x + (selectedObject.transform.localScale.x / 2),
+                        layerHit.transform.position.x + (selectedObject.transform.localScale.x / 2) + objectOffsetAmount,
                         layerHit.transform.position.y,
                         layerHit.transform.position.z);
                     }
