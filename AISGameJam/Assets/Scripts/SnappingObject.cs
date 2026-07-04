@@ -74,7 +74,7 @@ public class SnappingObject : MonoBehaviour
 
                     selectedObject.transform.rotation = Quaternion.identity; // resets the selectedObject's rotation;
 
-                    //Rigidbody selectedObjectRB = selectedObject.GetComponent<Rigidbody>();
+                    if(selectedObject.GetComponent<Rigidbody>()) ToggleObjectGravityAndPhysics(true);
 
                     //selectedObject.GetComponent<Rigidbody>().isKinematic = true;
 
@@ -133,7 +133,7 @@ public class SnappingObject : MonoBehaviour
                     selectedObject.transform.position = selectedObjectOnArea;
                 }
 
-                //selectedObject.GetComponent<Rigidbody>().isKinematic = false;
+                if(selectedObject.GetComponent<Rigidbody>()) ToggleObjectGravityAndPhysics(false);
 
                 selectedObject = null;
 
@@ -210,5 +210,23 @@ public class SnappingObject : MonoBehaviour
 
         // resets the selectedObject's rotation
         selectedObject.transform.rotation = Quaternion.identity;
+    }
+
+    void ToggleObjectGravityAndPhysics(bool disable)
+    {
+        if(selectedObject == null) return;
+        Rigidbody selectedObjectRB = selectedObject.GetComponent<Rigidbody>();
+        
+        if(disable)
+        {
+            selectedObjectRB.isKinematic = true;
+            selectedObjectRB.detectCollisions = false;
+        }
+
+        if(!disable)
+        {
+            selectedObjectRB.isKinematic = false;
+            selectedObjectRB.detectCollisions = true;
+        }
     }
 }

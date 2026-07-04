@@ -6,6 +6,9 @@ TagManager:
   tags:
   - DragObject
   - DragAndDropArea
+  - DeathZone
+  - ExitPlatform
+  - ExitPosition
   layers:
   - Default
   - TransparentFX
@@ -14,8 +17,8 @@ TagManager:
   - Water
   - UI
   - DragAndDropAreaLayer
-  - 
-  - 
+  - Person
+  - ElevatorWall
   - 
   - 
   - 
